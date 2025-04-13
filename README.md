@@ -1,6 +1,4 @@
-# 🚦AI-powered annotation tool for ADAS training
-# 🚦 AI-Powered Object Detection for Urban Traffic Scenes
-
+# 🚦AI-powered annotation tool for ADAS training [Object Detection]
 This project demonstrates a deep learning-based object detection system that can recognize and label vehicles, pedestrians, and traffic lights in real-world urban traffic scenes. Developed using Python and hosted in Google Colab, this tool allows for object detection on single images, image directories, or video files with a clean and intuitive interface.
 
 ## 📌 Project Overview
