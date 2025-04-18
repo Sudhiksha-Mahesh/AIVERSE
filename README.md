@@ -1,67 +1,68 @@
-# 🚦AI-powered annotation tool for ADAS training [Object Detection]
-This project demonstrates a deep learning-based object detection system that can recognize and label vehicles, pedestrians, and traffic lights in real-world urban traffic scenes. Developed using Python and hosted in Google Colab, this tool allows for object detection on single images, image directories, or video files with a clean and intuitive interface.
+**AI POWERED ANNOTATION TOOL FOR ADAS TRAINING**
 
-## 📌 Project Overview
+This project showcases a deep learning powered object detection system built to identify and label vehicles, pedestrians and traffic lights in complex urban traffic environments. Developed using python and hosted on Google Colab, the system supports detection across various media formats like single images, video. With a focus on ease of use , it features a clean and user-friendly interface making it accessible for both practical and experimentation application.
 
-With the rise of smart cities and autonomous transportation, monitoring and interpreting traffic conditions efficiently is more crucial than ever. This project leverages pre-trained object detection models like **YOLOv5** or **SSD** on the **COCO dataset** to identify:
+**PROJECT OVERVIEW:**
 
-- 🚗 Cars
-- 🚌 Buses
-- 🧍 Pedestrians
-- 🚦 Traffic lights
+As cities evolve into smarter and more connected ecosystems, the ability to accurately monitor and interpret traffic in real time has become a key component in managing urban mobility. This project addresses that need by implementing an object detection system for urban traffic analysis.
 
+Built using powerful pre trained models such as YOLOv5 and SSD and trained on the well known COCO dataset, the system can reliably detect and label common elements found in real world traffic scenarios including :
 
-## 🌐 Live Demo
+- **CARS -** Identifies standard passenger vehicles on the road
+- **BUSES -** Recognizes larger public transport vehicles across lanes
+- **PEDESTRIANS -** Detects individuals crossing or walking near traffic zones
+- **TRAFFIC LIGHTS -** Spots signal lights
 
-https://colab.research.google.com/drive/1IyHO9Yuw3zOMGsfja8tyGABBiD7OOQi6?usp=sharing
+**KEY FEATURES:**
 
+- MULTI FORMAT DETECTION - Easily run on object detection on single image, folder of images or video files. It is very flexible and efficient for any use case.
+- ADJUSTABLE CONFIDENCE THRESHOLD – Fine tune the model’s sensitivity with confidence slider , giving full control over detection accuracy versus noise.
+- REAL TIME VISUALIZATION – Get instant visual feedback with real time previews and detection results, making the process intuitive and responsive.
+- BUILT ON PROVEN ARCHITECTURE – Powered by cutting edge object detection models like YOLOv5 and SSD ensuring fast, accurate and reliable performance.
+- INTERACTIVE USER INTERFACE – A user friendly sidebar interface provides toggle options, adjust settings and manage inputs.
 
-## 📁 Features
+**TOOLS & TECHNOLOGIES USED:**
 
-- ✅ Detect objects in images, folders of images, or video files
-- 🎛️ Adjustable confidence threshold slider
-- 🎥 Real-time preview and result display
-- 💻 Interactive sidebar UI with options
-- 📦 Built on state-of-the-art object detection architectures
+| **TOOLS / LIBRARY** | **PURPOSE** |
+| --- | --- |
+| Python | Core programming language used to build and tie everything together. |
+| OpenCV | Handles images and video processing tasks from reading frames to drawing bounding boxes. |
+| PyTorch / TensorFlow | Used to run and fine tune detection models. |
+| Streamlit | Adds simple and clean web based interface for interacting with the tool. |
+| YOLO / SSD | Used to identify the vehicles, pedestrians and traffic signals. |
+| Google Colab | Cloud based environment for writing, testing and running code with GPU support. No local set up needed |
 
+**HOW TO USE ?**
 
-## 🔧 Technologies Used
+- **STEP 1 – OPEN IN GOOGLE COLAB**
 
-| Tool / Library                | Purpose                              |
-|-------------------------------|--------------------------------------|
-| Python                        | Programming language                 |
-| OpenCV                        | Image and video processing           |
-| PyTorch / TensorFlow          | Deep learning framework              |
-| Streamlit / Gradio (optional) | For deployment GUI                   |
-| YOLO / SSD                    | Object detection models              |
-| Google Colab                  | Cloud-based development & execution  |
+Start by opening the provided notebook link in Google Colab. No installations needed, everything runs in the cloud.
 
+- **STEP 2 – UPLOAD MEDIA**
 
-## 🚀 How to Use
+Use the sidebar to select the input type like single image, folder of images or video file.
 
-### 1. Clone or Open in Colab
-Click the link above to open the notebook in Google Colab.
+- **STEP 3 – SET CONFIDENCE THRESHOLD**
 
-### 2. Upload an Image or Video
-Choose **Single Image**, **Image Directory**, or **Video File** via the sidebar.
+Use the sidebar to adjust how the confident the model should be before labelling the objects. A higher value gives more precise results.
 
-### 3. Adjust the Confidence Threshold
-Move the slider to set how confident the model should be before tagging objects.
+- **STEP 4 – RUN THE DEETCTION**
 
-### 4. Run Detection
-Click the **Run All** button or execute cells manually to begin inference.
+Hit “_Run All”_ to execute the results the entire notebook or run each cell step by step. The model will process the input and display the results in real-time.
 
+**FUTURE WORK :**
 
-## 🌍 Future Work
+- **REAL TIME WEB CAM DETECTION –** enhance the system to support live object detection using webcam enabling on the fly analysis without needing pre recorded media.
+- **MOBILE FRIENDLY VERSION –** Optimize the interface and processing pipeline for mobile devices, making it accessible and functional on the go.
+- **INTEGRATION WITH TRAFFIC SYSTEMS –** Connect the detection system with real world traffic management platforms to support smarter signal control and incident monitoring
+- **PUBLIC DEPLOYMNET –** Host the entire solution using the streamlit or flask allowing the users to access and interact with the tool through a public web interface
 
-- Real-time webcam-based detection
-- Mobile-friendly version
-- Integration with traffic management systems
-- Deployment via Streamlit/Flask with public access
+**AUTHOR:**
 
+This project was proudly built by a passionate group of developers , working together under the name **AIVERSE**
 
-## 👤 Author
+**TEAM MEMBERS:**
 
-**TEAM AIVERSE**  
-
-
+- **TEAM LEADER :** DHARSHINI R
+- **TEAM MEMBER 1:** SUDHIKSHA M K
+- **TEAM MEMBER 2:** VIBHOOSHANA K
